@@ -4,7 +4,7 @@ console.log(cards);
 
 
 for (i = 0; i<6; i++){ 
-    let randomMon = Math.floor((Math.random() * 150) +1);
+    let randomMon = Math.floor((Math.random() * 151) +1);
     
     fetch(`https://pokeapi.co/api/v2/pokemon/${randomMon}`)
         .then(function(response){

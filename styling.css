@@ -29,9 +29,9 @@ header{
         rgb(14, 154, 179)50%) fixed, no-repeat;
     color: white;
     padding-top: 25px;
-    padding-bottom: 3px;
+    /* padding-bottom: 1px; */
     margin-bottom: 15px;
-    
+    border-bottom: 6px solid gold;
 }
 #headerText{
     width:75%;
@@ -47,8 +47,6 @@ button{
     display: inline-block;
 }
 button:hover{
-    /* background-color: rgb(14, 154, 179);
-    border: 2px solid rgb(14, 154, 179); */
     box-shadow: 0px 0px 5px dimgray;
 }
 #newTeam{
