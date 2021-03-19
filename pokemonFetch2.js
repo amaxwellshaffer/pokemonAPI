@@ -15,9 +15,10 @@ for (i = 0; i<6; i++){
                // let chosenTeam = json.results;
                console.log(json.name);
                 
+               let level = Math.floor((Math.random() * 100) +1);
                let sprite = json.sprites.front_default;
                let listItem = document.createElement('li');   
-                listItem.innerHTML = '<img src="' + sprite +'"><h4>' + json.name + '</h4><p>Level '+ Math.floor((Math.random() * 100) +1)+'</p>';   
+                listItem.innerHTML = `<img src="${sprite}"><h4>${json.name}</h4><p>Level ${level}</p>`;   
                 document.getElementById('teamList').appendChild(listItem);       
             
 
