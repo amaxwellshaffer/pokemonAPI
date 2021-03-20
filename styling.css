@@ -25,8 +25,8 @@ header{
     width: 100%;
     /* background-color: rgb(59,139,182); */
     background:linear-gradient( 180deg,
-        rgb(32, 92, 124)5%, 
-        rgb(14, 154, 179)50%) fixed, no-repeat;
+    rgb(32, 92, 124)5%, 
+    rgb(14, 154, 179)50%) fixed, no-repeat;
     color: white;
     padding-top: 25px;
     /* padding-bottom: 1px; */
@@ -37,6 +37,14 @@ header{
     width:75%;
     margin: auto;
     text-align: center;
+    text-shadow: 0px 0px 8px rgb(32, 92, 124);
+}
+
+#headerText h1{
+    font-family: 'Press Start 2P', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 0px rgb(23, 70, 95);
 }
 
 button{
@@ -57,4 +65,8 @@ button:hover{
 
 #newTeam p{
     display: inline-block;
+}
+
+hr{
+    border-top: 2px solid;
 }
